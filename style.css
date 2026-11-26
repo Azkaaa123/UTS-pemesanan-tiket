@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2e86de;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1e6fc0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+th {
+    background-color: #d6eaf8;
+}
+.hasil {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.simulasi {
+    margin-top: 10px;
+}
